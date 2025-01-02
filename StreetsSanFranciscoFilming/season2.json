@@ -1,0 +1,58 @@
+{
+  "seasonNumber": 2,
+  "seasonAirDate": "1973-1974",
+  "title": "Season Two",
+  "totalEpisodes": "23",
+  "episodes": [
+    {
+      "episodeNumber": 1,
+      "episodeTitle": "A Wrongful Death",
+      "episodeAirDate": "September 13, 1973",
+      "episodeDescription": "The father of a robbery suspect killed by Keller insists his boy was unarmed",
+      "episodeGuestStars": "Ina Balin, Michael Constantine",
+      "locations": [
+        {
+          "locationTitle": "Downtown Plaza",
+          "locationInfo": "Opening scene where main characters first meet",
+          "timeCode": "00:02:15",
+          "filmingLocation": {
+            "latitude": 34.0522,
+            "longitude": -118.2437
+          },
+          "imageFilename": "downtown_plaza.jpg"
+        },
+        {
+          "locationTitle": "City Park",
+          "locationInfo": "Chase sequence through the park",
+          "timeCode": "00:15:30",
+          "filmingLocation": {
+            "latitude": 34.0658,
+            "longitude": -118.2843
+          },
+          "imageFilename": "city_park.jpg"
+        }
+      ],
+      "seasonEpisodeNumber": 2001
+    },
+    {
+      "episodeNumber": 2,
+      "episodeTitle": "Betrayed",
+      "episodeAirDate": "September 20, 1973",
+      "episodeDescription": "One of the girlfriends of a young charmer learns that he has robbed a bank.",
+      "episodeGuestStars": "Martin Sheen",
+      "locations": [
+        {
+          "locationTitle": "Train Station",
+          "locationInfo": "Departure scene",
+          "timeCode": "00:05:45",
+          "filmingLocation": {
+            "latitude": 34.0561,
+            "longitude": -118.2365
+          },
+          "imageFilename": "train_station.jpg"
+        }
+      ],
+      "seasonEpisodeNumber": 2002
+    }
+  ]
+}

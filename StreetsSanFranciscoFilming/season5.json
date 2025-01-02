@@ -1,0 +1,58 @@
+{
+  "seasonNumber": 5,
+  "seasonAirDate": "1976-1977",
+  "title": "Season Five",
+  "totalEpisodes": "24",
+  "episodes": [
+    {
+      "episodeNumber": 1,
+      "episodeTitle": "The Thrill Killers: Part 1",
+      "episodeAirDate": "September 30, 1976",
+      "episodeDescription": "Misguided radicals take a jury hostage in a case where corrupt 'movement leaders' are being tried for murder",
+      "episodeGuestStars": "Patty Duke",
+      "locations": [
+        {
+          "locationTitle": "Downtown Plaza",
+          "locationInfo": "Opening scene where main characters first meet",
+          "timeCode": "00:02:15",
+          "filmingLocation": {
+            "latitude": 34.0522,
+            "longitude": -118.2437
+          },
+          "imageFilename": "downtown_plaza.jpg"
+        },
+        {
+          "locationTitle": "City Park",
+          "locationInfo": "Chase sequence through the park",
+          "timeCode": "00:15:30",
+          "filmingLocation": {
+            "latitude": 34.0658,
+            "longitude": -118.2843
+          },
+          "imageFilename": "city_park.jpg"
+        }
+      ],
+      "seasonEpisodeNumber": 5001
+    },
+    {
+      "episodeNumber": 2,
+      "episodeTitle": "The Thrill Killers: Part 2",
+      "episodeAirDate": "October 7, 1976",
+      "episodeDescription": "Mike and Inspector Dan Robbins make a last-ditch effort to save the jury from execution at the hands of the radicals. Steve leaves the police force. ",
+      "episodeGuestStars": "Richard Hatch, Doris Roberts, Susan Dey",
+      "locations": [
+        {
+          "locationTitle": "Train Station",
+          "locationInfo": "Departure scene",
+          "timeCode": "00:05:45",
+          "filmingLocation": {
+            "latitude": 34.0561,
+            "longitude": -118.2365
+          },
+          "imageFilename": "train_station.jpg"
+        }
+      ],
+      "seasonEpisodeNumber": 5002
+    }
+  ]
+}

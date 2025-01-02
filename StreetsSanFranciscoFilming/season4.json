@@ -1,0 +1,59 @@
+{
+  "seasonNumber": 4,
+  "seasonAirDate": "1975-1976",
+  "title": "Season Four",
+  "totalEpisodes": "23",
+  "episodes": [
+    {
+      "episodeNumber": 1,
+      "episodeTitle": "Poisoned Snow",
+      "episodeAirDate": "September 11, 1975",
+      "episodeDescription": "A narcotics cop laces a batch of cocaine with cyanide and puts it on the street",
+      "episodeGuestStars": "Clu Gulager, Mark Hamill",
+      "locations": [
+        {
+          "locationTitle": "Downtown Plaza",
+          "locationInfo": "Opening scene where main characters first meet",
+          "timeCode": "00:02:15",
+          "filmingLocation": {
+            "latitude": 34.0522,
+            "longitude": -118.2437
+          },
+          "imageFilename": "downtown_plaza.jpg"
+        },
+        {
+          "locationTitle": "City Park",
+          "locationInfo": "Chase sequence through the park",
+          "timeCode": "00:15:30",
+          "filmingLocation": {
+            "latitude": 34.0658,
+            "longitude": -118.2843
+          },
+          "imageFilename": "city_park.jpg"
+        }
+      ],
+      "seasonEpisodeNumber": 4001
+    },
+    {
+      "episodeNumber": 2,
+      "episodeTitle": "The Glass Dart Board",
+      "episodeAirDate": "September 18, 1975",
+      "episodeDescription": "A psychopathic killer uses people living in San Francisco's high-rises for target practice",
+      "episodeGuestStars": "Patrick O'Neal",
+      "locations": [
+        {
+          "locationTitle": "Train Station",
+          "locationInfo": "Departure scene",
+          "timeCode": "00:05:45",
+          "filmingLocation": {
+            "latitude": 34.0561,
+            "longitude": -118.2365
+          },
+          "imageFilename": "train_station.jpg"
+        }
+      ],
+      "seasonEpisodeNumber": 4002
+    }
+  ]
+}
+

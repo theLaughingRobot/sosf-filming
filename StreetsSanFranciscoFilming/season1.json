@@ -1,0 +1,698 @@
+{
+  "seasonNumber": 1,
+  "seasonAirDate": "1972-1973",
+  "title": "Season One",
+  "totalEpisodes": "27",
+  "episodes": [
+    {
+      "episodeNumber": 0,
+      "episodeTitle": "Pilot: The Streets of San Francisco",
+      "episodeAirDate": "September 16, 1972",
+      "episodeDescription": "Gritty crime drama set in San Francisco, featuring an older, veteran cop and his younger, less experienced partner.",
+      "episodeGuestStars": "Andrew Duggan, Tom Bosley, John Rubinstein, Carmen Mathews, Edward Andrews, Lawrence Dobkin",
+      "locations": [
+        {
+          "locationTitle": "Golden Gate Promenade",
+          "locationInfo": "Opening scene where Holly Berry's body was found floating",
+          "timeCode": "00:14",
+          "filmingLocation": {
+            "latitude": 37.8071298,
+            "longitude": -122.4482331
+          },
+          "imageFilename": "sosf-1"
+        },
+        {
+          "locationTitle": "San Francisco Police Department",
+          "locationInfo": "Where Stone and Keller meet David Farr before having him identify the body in the morgue.",
+          "timeCode": "05:26",
+          "filmingLocation": {
+            "latitude": 37.7757813,
+            "longitude": -122.4046718
+          },
+          "imageFilename": "sosf-1"
+        },
+        {
+          "locationTitle": "160 Haight St",
+          "locationInfo": "Holly's apartment run by Richie Serretti",
+          "timeCode": "10:56",
+          "filmingLocation": {
+            "latitude": 37.7728912,
+            "longitude": -122.4248916
+          },
+          "imageFilename": "sosf-1"
+        },
+        {
+          "locationTitle": "2190 Washington St",
+          "locationInfo": "David Farr's apartment at 2190 Washington St, apartment 1002",
+          "timeCode": "20:16",
+          "filmingLocation": {
+            "latitude": 37.7924894,
+            "longitude": -122.4291361
+          },
+          "imageFilename": "sosf-1"
+        },
+        {
+          "locationTitle": "Plantation Inn",
+          "locationInfo": "Plantation Inn, hotel where Farr takes Holly Barry, room 3C. This is now Hotel Del Sol",
+          "timeCode": "25:10",
+          "filmingLocation": {
+            "latitude": 37.7994552,
+            "longitude": -122.4341410
+          },
+          "imageFilename": "sosf-1"
+        },
+        {
+          "locationTitle": "2601 Lombard St",
+          "locationInfo": "Texaco gas station where Delbert worked, this is now a Fuel 24:7 station",
+          "timeCode": "28:53",
+          "filmingLocation": {
+            "latitude": 37.798627,
+            "longitude": -122.4445154
+          },
+          "imageFilename": "sosf-1"
+        },
+        {
+          "locationTitle": "Photobooth at Pier 39",
+          "locationInfo": "Photobooth where Holly took her photos",
+          "timeCode": "39:12",
+          "filmingLocation": {
+            "latitude": 37.8091081,
+            "longitude": -122.4159587
+          },
+          "imageFilename": "sosf-1"
+        },
+        {
+          "locationTitle": "Photo Lamination Machine",
+          "locationInfo": "Machine where Holly laminates David's business card",
+          "timeCode": "40:30",
+          "filmingLocation": {
+            "latitude": 37.8083386,
+            "longitude": -122.4159163
+          },
+          "imageFilename": "sosf-1"
+        },
+        {
+          "locationTitle": "Chinatown Gates",
+          "locationInfo": "Where Keller enters Chinatown looking for the Karate studio",
+          "timeCode": "41:13",
+          "filmingLocation": {
+            "latitude": 37.7906625,
+            "longitude": -122.4055852
+          },
+          "imageFilename": "sosf-1"
+        },
+        {
+          "locationTitle": "38 Spofford St",
+          "locationInfo": "Kenji Karate Studio where Keller goes to ask about David Farr",
+          "timeCode": "41:37",
+          "filmingLocation": {
+            "latitude": 37.7946345,
+            "longitude": -122.4073881
+          },
+          "imageFilename": "sosf-1"
+        },
+        {
+          "locationTitle": "David Farr's boat slip",
+          "locationInfo": "Where David Farr's kept his boat. Stone and Keller talk to boat owners Joe & Sally Kaswell on their boat Flash Cut",
+          "timeCode": "48:30",
+          "filmingLocation": {
+            "latitude": 37.807941,
+            "longitude": -122.4414714
+          },
+          "imageFilename": "sosf-1"
+        },
+        {
+          "locationTitle": "Grass Roots Club",
+          "locationInfo": "Grass Roots Club at 53 Osgood Place, where David talks to the band's drummer to find out where Delbert is",
+          "timeCode": "51:10",
+          "filmingLocation": {
+            "latitude": 37.79822804,
+            "longitude": -122.4030819
+          },
+          "imageFilename": "sosf-1"
+        },
+        {
+          "locationTitle": "156 Lombard St",
+          "locationInfo": "Abandoned Ice House where Farr finds Delbert hiding out, this is now called TeleGraph LandingG Condos",
+          "timeCode": "66:40",
+          "filmingLocation": {
+            "latitude": 37.80405597,
+            "longitude": -122.4037415
+          },
+          "imageFilename": "sosf-1"
+        },
+        {
+          "locationTitle": "411 Marina Blvd",
+          "locationInfo": "Where Stone tells Keller about Gregory Praxas",
+          "timeCode": "84:54",
+          "filmingLocation": {
+            "latitude": 37.8061059,
+            "longitude": -122.4400457
+          },
+          "imageFilename": "sosf-1"
+        },
+        {
+          "locationTitle": "Gregory Praxas'  house",
+          "locationInfo": "Where Stone and Kellar confront Gregory Praxas and save David Farr. The house has it as 21 125th Ave, but the current address is 1 125th Ave",
+          "timeCode": "85:44",
+          "filmingLocation": {
+            "latitude": 37.78972814,
+            "longitude": -122.4856114
+          },
+          "imageFilename": "sosf-1"
+        },
+        {
+          "locationTitle": "St. Joseph's Hospital",
+          "locationInfo": "St Joseph's Hospital at 355 Buena Vista Avenue East. The final scene shows Stone and Keller's car leaving the parking lot after visiting David Farr and driving east on Buena Vista Ave E",
+          "timeCode": "98:15",
+          "filmingLocation": {
+            "latitude": 37.76731231,
+            "longitude": -122.4396617
+          },
+          "imageFilename": "sosf-1"
+        }
+      ],
+      "seasonEpisodeNumber": 1000
+    },
+    {
+      "episodeNumber": 1,
+      "episodeTitle": "The Thirty-Year Pin",
+      "episodeAirDate": "September 23, 1972",
+      "episodeDescription": "A thirty-year veteran beat cop and longtime friend of Stone's is shot during an attempted robbery. Stone sets off with a vendetta to get the gunman, blurring the line between professional and personal.",
+      "episodeGuestStars": "Edmond O'Brien, Tim O'Connor, David Opatoshu, Eileen Heckart",
+      "locations": [
+        {
+          "locationTitle": "Joseph's Jewlers",
+          "locationInfo": "Joseph's Jewlers where Gus gets shot",
+          "timeCode": "02:07",
+          "filmingLocation": {
+            "latitude": 37.798197,
+            "longitude": -122.4069720
+          },
+          "imageFilename": "xxxxx.jpg"
+        }
+      ],
+      "seasonEpisodeNumber": 1001
+    },
+    {
+      "episodeNumber": 2,
+      "episodeTitle": "The First Day of Forever",
+      "episodeAirDate": "September 30, 1972",
+      "episodeDescription": "A would-be Jack The Ripper stalks the city, slashing to death prostitutes. Stone assigns a resistant Keller with protecting a prostitute who has been threatened.",
+      "episodeGuestStars": "Janice Rule, James Olson",
+      "locations": [
+        {
+          "locationTitle": "The Orphanage Lounge",
+          "locationInfo": "The Orphanage Lounge where Beverly Landau gets stabbed outside",
+          "timeCode": "03:35",
+          "filmingLocation": {
+            "latitude": 37.796693,
+            "longitude": -122.403649
+          },
+          "imageFilename": "xxxxx.jpg"
+        }
+      ],
+      "seasonEpisodeNumber": 1002
+    },
+    {
+      "episodeNumber": 3,
+      "episodeTitle": "45 Minutes from Home",
+      "episodeAirDate": "October 7, 1972",
+      "episodeDescription": "A businessman who flew in from Los Angeles (the time it takes to fly from L.A. to S.F. is the source of the title) for a convention meets a woman at the convention center and agrees to join her on her houseboat in nearby Sausalito. They get into an argument and he winds up striking her on the head and fleeing. The woman's boyfriend gets home, gets into an argument with her and again bashes her on the head, killing her. The businessman is the prime suspect in the murder because he was seen arriving at and then fleeing the crime scene.",
+      "episodeGuestStars": "William Windom, Dick van Patten",
+      "locations": [
+        {
+          "locationTitle": "xxxx",
+          "locationInfo": "Where Russell Rankin picks up Lita on the corner.",
+          "timeCode": "01:11",
+          "filmingLocation": {
+            "latitude": 37.802977,
+            "longitude": -122.4369080
+          },
+          "imageFilename": "xxxx.jpg"
+        }
+      ],
+      "seasonEpisodeNumber": 1003
+    },
+    {
+      "episodeNumber": 4,
+      "episodeTitle": "Whose Little Boy Are You?",
+      "episodeAirDate": "October 14, 1972",
+      "episodeDescription": "Stone and Keller contend with an AWOL Vietnam War soldier determined to abduct a five-year-old child.",
+      "episodeGuestStars": "James Stacy, Linda Marsh",
+      "locations": [
+        {
+          "locationTitle": "1552 Greenwich",
+          "locationInfo": "Joan Geneti's apartment at 1552 Greenwich Apt 4",
+          "timeCode": "07:45",
+          "filmingLocation": {
+            "latitude": 37.800397,
+            "longitude": -122.4253169
+          },
+          "imageFilename": "XXXX.jpg"
+        }
+      ],
+      "seasonEpisodeNumber": 1004
+    },
+    {
+      "episodeNumber": 5,
+      "episodeTitle": "Tower Beyond Tragedy",
+      "episodeAirDate": "October 28, 1972",
+      "episodeDescription": "Stone and Keller uncover the seedy world of escort services when their suspect is a cultured art collector with a Pygmalion complex who hires escorts determined to create in them his idealized woman.",
+      "episodeGuestStars": "Stefanie Powers, Edward Mulhare, Vic Tayback",
+      "locations": [
+        {
+          "locationTitle": "XXXXX",
+          "locationInfo": "Where Amery takes Kim at the end of the evening.",
+          "timeCode": "08:20",
+          "filmingLocation": {
+            "latitude": 37.809432,
+            "longitude": -122.4759779
+          },
+          "imageFilename": "xxxx.jpg"
+        }
+      ],
+      "seasonEpisodeNumber": 1005
+    },
+    {
+      "episodeNumber": 6,
+      "episodeTitle": "Hall of Mirrors",
+      "episodeAirDate": "November 4, 1972",
+      "episodeDescription": "Stone is sidelined with a broken ankle, so Keller teams up with hot-headed Inspector Jim Martin to track down a young Mexican suspected of murder. But Martin's prejudice against Mexicans threatens the investigation's success.",
+      "episodeGuestStars": "David Soul , A Martinez",
+      "locations": [
+        {
+          "locationTitle": "xxxxx",
+          "locationInfo": "Where Mike and Inspector Martin are coming back from the produce market.",
+          "timeCode": "07:11",
+          "filmingLocation": {
+            "latitude": 37.753819,
+            "longitude": -122.4186099
+          },
+          "imageFilename": "xxxx.jpg"
+        }
+      ],
+      "seasonEpisodeNumber": 1006
+    },
+    {
+      "episodeNumber": 7,
+      "episodeTitle": "Timelock",
+      "episodeAirDate": "November 11, 1972",
+      "episodeDescription": "When a parolee whom Stone once coached in the Police Athletic League is accused of murdering another ex-con, Stone, Keller and a caring social worker rally to his defense.",
+      "episodeGuestStars": "Peter Strauss, Bernie Casey, Elaine Giftos",
+      "locations": [
+        {
+          "locationTitle": "xxxx",
+          "locationInfo": "Where the sniper, Daryl LeBeau, waits to kill Herb Shako",
+          "timeCode": "01:22",
+          "filmingLocation": {
+            "latitude": 37.804709,
+            "longitude": -122.4135650
+          },
+          "imageFilename": "xxxx.jpg"
+        }
+      ],
+      "seasonEpisodeNumber": 1007
+    },
+    {
+      "episodeNumber": 8,
+      "episodeTitle": "In the Midst of Strangers",
+      "episodeAirDate": "November 25, 1972",
+      "episodeDescription": "A city official is murdered in a botched mugging by a gang of three sophisticated criminals unaware of his high profile. The mayor, convinced it was a political assassination, orders Stone and Keller to crack the case.",
+      "episodeGuestStars": "David Wayne, Ramon Bieri, Robert Foxworth",
+      "locations": [
+        {
+          "locationTitle": "xxxx",
+          "locationInfo": "Where Wally sells his papers to the people on the Cable Car.",
+          "timeCode": "01:27",
+          "filmingLocation": {
+            "latitude": 37.788183,
+            "longitude": -122.408348
+          },
+          "imageFilename": "xxxx.jpg"
+        }
+      ],
+      "seasonEpisodeNumber": 1008
+    },
+    {
+      "episodeNumber": 9,
+      "episodeTitle": "The Takers",
+      "episodeAirDate": "December 2, 1972",
+      "episodeDescription": "Two young women are found murdered in a swinging singles apartment complex. As Stone and Keller investigate, they uncover multiple suspects with a motive to murder the two gold-digging, teasing takers.",
+      "episodeGuestStars": "Harold Gould, Michael Lerner, Vic Tayback",
+      "locations": [
+        {
+          "locationTitle": "xxxx",
+          "locationInfo": "xxxx",
+          "timeCode": "13:03",
+          "filmingLocation": {
+            "latitude": 37.788183,
+            "longitude": -122.408348
+          },
+          "imageFilename": "xxxx.jpg"
+        }
+      ],
+      "seasonEpisodeNumber": 1009
+    },
+    {
+      "episodeNumber": 10,
+      "episodeTitle": "The Year of the Locusts",
+      "episodeAirDate": "December 9, 1972",
+      "episodeDescription": "A band of modern-day Gypsies descends on San Francisco, its aging patriarch unaware that the younger generation has moved on from the traditional flim-flam to million-dollar heists and murder.",
+      "episodeGuestStars": "George Voskovec, Michael Ansara",
+      "locations": [
+        {
+          "locationTitle": "xxxxxx",
+          "locationInfo": "Open shot of the stolen power company truck parking to get into the sewer system.",
+          "timeCode": "01:07",
+          "filmingLocation": {
+            "latitude": 37.804867,
+            "longitude": -122.4235909
+          },
+          "imageFilename": "xxxx.jpg"
+        }
+      ],
+      "seasonEpisodeNumber": 1010
+    },
+    {
+      "episodeNumber": 11,
+      "episodeTitle": "The Bullet",
+      "episodeAirDate": "December 16, 1972",
+      "episodeDescription": "An ex-con college professor takes a bullet to the shoulder when a hit-man murders a blackmailer. But the professor refuses to have the bullet removed, and the hit-man is hot on his trail to recover the incriminating bullet.",
+      "episodeGuestStars": "Carl Betz, Geraldine Brooks",
+      "locations": [
+        {
+          "locationTitle": "Capri Motel",
+          "locationInfo": "Capri Motel where Victor A Coyle stays in room #105",
+          "timeCode": "11:29",
+          "filmingLocation": {
+            "latitude": 37.799281,
+            "longitude": -122.4327140
+          },
+          "imageFilename": "xxxx.jpg"
+        }
+      ],
+      "seasonEpisodeNumber": 1011
+    },
+    {
+      "episodeNumber": 12,
+      "episodeTitle": "Bitter Wine",
+      "episodeAirDate": "December 23, 1972",
+      "episodeDescription": "Stone oversteps his authority when he entrusts to a traditional Greek patriarch his ex-con son just released from San Quentin. When the son is implicated in a suspicious fire, Stone and Keller's investigation uncovers ugly family secrets.",
+      "episodeGuestStars": "Paul Michael Glaser, Scott Marlowe, Nehemiah Persoff",
+      "locations": [
+        {
+          "locationTitle": "xxxxx",
+          "locationInfo": "Where Jason Kampacalas gets dropped off after being released from San Juaintan. ",
+          "timeCode": "02:02",
+          "filmingLocation": {
+            "latitude": 37.797747,
+            "longitude": -122.406342
+          },
+          "imageFilename": "xxxx.jpg"
+        }
+      ],
+      "seasonEpisodeNumber": 1012
+    },
+    {
+      "episodeNumber": 13,
+      "episodeTitle": "A Trout in the Milk",
+      "episodeAirDate": "January 6, 1973",
+      "episodeDescription": "An artist is thrown to his death from his apartment window. Stone and Keller's investigation centers on the daughter of a renowned eccentric poet, who sets to spinning a web of deception to deflect the dogged detectives from her trail.",
+      "episodeGuestStars": "Roscoe Lee Browne, Brenda Sykes",
+      "locations": [
+        {
+          "locationTitle": "1756 Stockton St",
+          "locationInfo": "Apartment above Napoli Market where Rob Evanhauer gets pushed out the window.",
+          "timeCode": "04:35",
+          "filmingLocation": {
+            "latitude": 37.802087,
+            "longitude": -122.4093780
+          },
+          "imageFilename": "xxxx.jpg"
+        }
+      ],
+      "seasonEpisodeNumber": 1013
+    },
+    {
+      "episodeNumber": 14,
+      "episodeTitle": "Deathwatch",
+      "episodeAirDate": "January 13, 1973",
+      "episodeDescription": "Two crusty fishermen at sea stumble upon an illegal alien smuggling ring. The smugglers murder one of the fishermen and pressure the second into silence, stymieing Stone and Keller's investigation.",
+      "episodeGuestStars": "Nicholas Colasanto, Anthony Caruso, Victor French",
+      "locations": [
+        {
+          "locationTitle": "xxxx",
+          "locationInfo": "Where Joe Protruro sees his partner Lou Roselli get killed.",
+          "timeCode": "06:46",
+          "filmingLocation": {
+            "latitude": 37.808377,
+            "longitude": -122.420198
+          },
+          "imageFilename": "xxxx.jpg"
+        }
+      ],
+      "seasonEpisodeNumber": 1014
+    },
+    {
+      "episodeNumber": 15,
+      "episodeTitle": "Act of Duty",
+      "episodeAirDate": "January 18, 1973",
+      "episodeDescription": "In her zeal to capture a serial rapist, a rookie cop flouts Stone's orders, jeopardizing not only Stone and Keller's carefully choreographed stake out but her own life.",
+      "episodeGuestStars": "Brenda Vaccaro, Michael Burns",
+      "locations": [
+        {
+          "locationTitle": "xxxx",
+          "locationInfo": "Where Sherri Reese has coffee with victim Nancy Conners to get more information on the rapist.",
+          "timeCode": "21:47",
+          "filmingLocation": {
+            "latitude": 37.796907,
+            "longitude": -122.3983600
+          },
+          "imageFilename": "xxxx.jpg"
+        }
+      ],
+      "seasonEpisodeNumber": 1015
+    },
+    {
+      "episodeNumber": 16,
+      "episodeTitle": "The Set-Up",
+      "episodeAirDate": "January 25, 1973",
+      "episodeDescription": "A hit man living a new life with a family in France is lured out of retirement by his former employer, a crime kingpin determined to rub out every witness to a murder he committed.",
+      "episodeGuestStars": "Stuart Whitman, Jack Albertson, Jason Evers, Claudine Longet",
+      "locations": [
+        {
+          "locationTitle": "xxxx",
+          "locationInfo": "Johnny Harmon's House",
+          "timeCode": "13:07",
+          "filmingLocation": {
+            "latitude": 37.805257,
+            "longitude": -122.445545
+          },
+          "imageFilename": "xxxx.jpg"
+        }
+      ],
+      "seasonEpisodeNumber": 1016
+    },
+    {
+      "episodeNumber": 17,
+      "episodeTitle": "A Collection of Eagles",
+      "episodeAirDate": "February 1, 1973",
+      "episodeDescription": "A greed-consumed numismatist plots to switch a wealthy collector's gold double-eagle coins with counterfeits, using and abusing his trusting accomplices along the way.",
+      "episodeGuestStars": "Joseph Cotten, John Saxon, Belinda Montgomery, Jamie Farr",
+      "locations": [
+        {
+          "locationTitle": "207 Front St.",
+          "locationInfo": "Hotel where Ernie stays",
+          "timeCode": "01:16",
+          "filmingLocation": {
+            "latitude": 37.793575,
+            "longitude": -122.3988000
+          },
+          "imageFilename": "xxxx.jpg"
+        }
+      ],
+      "seasonEpisodeNumber": 1017
+    },
+    {
+      "episodeNumber": 18,
+      "episodeTitle": "A Room with a View",
+      "episodeAirDate": "February 8, 1973",
+      "episodeDescription": "A war among gambling bosses is being waged. Stone and Keller attempt to locate and protect a vital witness from a hit man who has charmed his way into a lonely schoolteacher's apartment in order to secure a clear shot at his victim.",
+      "episodeGuestStars": "Steve Forrest, Shirley Knight, Richard Anderson, Michael Strong",
+      "locations": [
+        {
+          "locationTitle": "xxxx",
+          "locationInfo": "Opening Scene showing Santa Claus and Christmas Tree walking in front of 4068 24th St",
+          "timeCode": "01:15",
+          "filmingLocation": {
+            "latitude": 37.75141,
+            "longitude": -122.433448
+          },
+          "imageFilename": "xxxx.jpg"
+        }
+      ],
+      "seasonEpisodeNumber": 1018
+    },
+    {
+      "episodeNumber": 19,
+      "episodeTitle": "Deadline",
+      "episodeAirDate": "February 15, 1973",
+      "episodeDescription": "A veteran newspaper columnist and longtime friend of Stone's accidentally kills his young, two-timing mistress and then attempts to pin the rap on the young stage actor she was seeing.",
+      "episodeGuestStars": "Barry Sullivan, Geoffrey Deuel, Greg Mullavey, Tommy Kirk",
+      "locations": [
+        {
+          "locationTitle": "ACT Workshop",
+          "locationInfo": "American Conservatory Theater where Mike and Steve go to look for Peter Anthony",
+          "timeCode": "08:48",
+          "filmingLocation": {
+            "latitude": 37.787055,
+            "longitude": -122.410199
+          },
+          "imageFilename": "xxxx.jpg"
+        }
+      ],
+      "seasonEpisodeNumber": 1019
+    },
+    {
+      "episodeNumber": 20,
+      "episodeTitle": "Trail of the Serpent",
+      "episodeAirDate": "February 22, 1973",
+      "episodeDescription": "Stone is held hostage by the Cobras street-gang, which demands an exchange for its wounded leader who was captured in a bungled robbery. Keller and Devitt scour the city's seamy underside in their search for their friend and colleague.",
+      "episodeGuestStars": "Tim O'Connor, Cal Bellini, Brian Tochi",
+      "locations": [
+        {
+          "locationTitle": "xxxxxx",
+          "locationInfo": "xxxxx",
+          "timeCode": "00:05:45",
+          "filmingLocation": {
+            "latitude": 37.784548,
+            "longitude": -122.499863
+          },
+          "imageFilename": "xxxx.jpg"
+        }
+      ],
+      "seasonEpisodeNumber": 1020
+    },
+    {
+      "episodeNumber": 21,
+      "episodeTitle": "The House on Hyde Street",
+      "episodeAirDate": "March 1, 1973",
+      "episodeDescription": "Three young boys open a Pandora's Box when they sneak into an eccentric old man's home, a mysterious house rumored by their parents to contain a million-dollar treasure.",
+      "episodeGuestStars": "Lew Ayres, Albert Salmi, Clint Howard, Joyce Van Patten",
+      "locations": [
+        {
+          "locationTitle": "xxxxx",
+          "locationInfo": "xxxxx",
+          "timeCode": "00:05:45",
+          "filmingLocation": {
+            "latitude": 37.784548,
+            "longitude": -122.4998630
+          },
+          "imageFilename": "xxxx.jpg"
+        }
+      ],
+      "seasonEpisodeNumber": 1021
+    },
+    {
+      "episodeNumber": 22,
+      "episodeTitle": "Beyond Vengeance",
+      "episodeAirDate": "March 8, 1973",
+      "episodeDescription": "A homicidal rapist that Stone had put away twelve years earlier is released and begins waging psychological warfare on Stone by stalking his daughter Jeannie.",
+      "episodeGuestStars": "Joe Don Baker, Darlene Carr",
+      "locations": [
+        {
+          "locationTitle": "xxxx",
+          "locationInfo": "Bus station where Jeannie's roommate Val gets stabbed",
+          "timeCode": "05:20",
+          "filmingLocation": {
+            "latitude": 37.789934,
+            "longitude": -122.395989
+          },
+          "imageFilename": "xxxx.jpg"
+        }
+      ],
+      "seasonEpisodeNumber": 1022
+    },
+    {
+      "episodeNumber": 23,
+      "episodeTitle": "The Albatross",
+      "episodeAirDate": "March 15, 1973",
+      "episodeDescription": "A child is murdered in a bungled burglary and the killer is set free on a legal technicality. Despite Stone's strenuous objections, the grieving father is determined to take justice into his own hands.",
+      "episodeGuestStars": "Ed Nelson, Kaz Garas, John Kerr",
+      "locations": [
+        {
+          "locationTitle": "86 Sanchez St",
+          "locationInfo": "Where the boy was murdered. They say it's Austin St on the show",
+          "timeCode": "01:27",
+          "filmingLocation": {
+            "latitude": 37.755327,
+            "longitude": -122.4298890
+          },
+          "imageFilename": "xxxx.jpg"
+        }
+      ],
+      "seasonEpisodeNumber": 1023
+    },
+    {
+      "episodeNumber": 24,
+      "episodeTitle": "Shattered Image",
+      "episodeAirDate": "March 22, 1973",
+      "episodeDescription": "A high-powered Commerce Dept. official is harpooned on a pleasure boat. Stone and Keller sift through the suspects, among whom are a senator, a boat builder and the grieving widow, who is an old friend of Stone's from the Potrero.",
+      "episodeGuestStars": "Barbara Rush, Jim Davis, Dick Sargent",
+      "locations": [
+        {
+          "locationTitle": "xxxx",
+          "locationInfo": "Opening scene of boat in the bay",
+          "timeCode": "01:20",
+          "filmingLocation": {
+            "latitude": 37.807868,
+            "longitude": -122.439065
+          },
+          "imageFilename": "xxxx.jpg"
+        }
+      ],
+      "seasonEpisodeNumber": 1024
+    },
+    {
+      "episodeNumber": 25,
+      "episodeTitle": "The Unicorn",
+      "episodeAirDate": "April 5, 1973",
+      "episodeDescription": "A priest won't tell Stone where a murderer is hiding. Meantime, drug smugglers look for a stolen shipment of heroin.",
+      "episodeGuestStars": "Richard Egan, Charles Aidman",
+      "locations": [
+        {
+          "locationTitle": "xxxx",
+          "locationInfo": "Where cops see Father helping a drunken Harry celebrating the birth of his son.",
+          "timeCode": "01:23",
+          "filmingLocation": {
+            "latitude": 37.795411,
+            "longitude": -122.3918150
+          },
+          "imageFilename": "xxxx.jpg"
+        }
+      ],
+      "seasonEpisodeNumber": 1025
+    },
+    {
+      "episodeNumber": 26,
+      "episodeTitle": "Legion of the Lost",
+      "episodeAirDate": "April 12, 1973",
+      "episodeDescription": "After three winos are brutally beaten to death, Stone goes undercover as a bum to crack the case.",
+      "episodeGuestStars": "Leslie Nielsen, Dean Stockwell",
+      "locations": [
+        {
+          "locationTitle": "xxxx",
+          "locationInfo": "Where Stone and Keller walk to discuss suspects",
+          "timeCode": "14:13",
+          "filmingLocation": {
+            "latitude": 37.780033,
+            "longitude": -122.4167059
+          },
+          "imageFilename": "xxxx.jpg"
+        }
+      ],
+      "seasonEpisodeNumber": 1026
+    }
+  ]
+}

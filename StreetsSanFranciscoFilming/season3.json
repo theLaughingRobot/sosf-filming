@@ -1,0 +1,58 @@
+{
+  "seasonNumber": 3,
+  "seasonAirDate": "1974-1975",
+  "title": "Season Three",
+  "totalEpisodes": "23",
+  "episodes": [
+    {
+      "episodeNumber": 1,
+      "episodeTitle": "One Last Shot",
+      "episodeAirDate": "September 12, 1974",
+      "episodeDescription": "Alcoholic Off. Joe Landers accidentally gets his partner killed and clumsily tries to cover it up as Stone and Keller work their way to the truth.",
+      "episodeGuestStars": "Leslie Nielsen, Jacqueline Scott, Robert Drivas, Susan Strasberg",
+      "locations": [
+        {
+          "locationTitle": "Downtown Plaza",
+          "locationInfo": "Opening scene where main characters first meet",
+          "timeCode": "00:02:15",
+          "filmingLocation": {
+            "latitude": 34.0522,
+            "longitude": -118.2437
+          },
+          "imageFilename": "downtown_plaza.jpg"
+        },
+        {
+          "locationTitle": "City Park",
+          "locationInfo": "Chase sequence through the park",
+          "timeCode": "00:15:30",
+          "filmingLocation": {
+            "latitude": 34.0658,
+            "longitude": -118.2843
+          },
+          "imageFilename": "city_park.jpg"
+        }
+      ],
+      "seasonEpisodeNumber": 3001
+    },
+    {
+      "episodeNumber": 2,
+      "episodeTitle": "The Most Deadly Species",
+      "episodeAirDate": "September 19, 1974",
+      "episodeDescription": "Steve Keller unwittingly leaks information on a case to his attractive new neighbour, whom he is dating and who is, in fact, a hit-woman.",
+      "episodeGuestStars": "Brenda Vaccaro",
+      "locations": [
+        {
+          "locationTitle": "Train Station",
+          "locationInfo": "Departure scene",
+          "timeCode": "00:05:45",
+          "filmingLocation": {
+            "latitude": 34.0561,
+            "longitude": -118.2365
+          },
+          "imageFilename": "train_station.jpg"
+        }
+      ],
+      "seasonEpisodeNumber": 3002
+    }
+  ]
+}
