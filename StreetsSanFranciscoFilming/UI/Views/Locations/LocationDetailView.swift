@@ -56,11 +56,6 @@ struct DetailCard: View {
       .frame(maxWidth: .infinity, alignment: .leading)
       .padding(.bottom, 12)
       
-      DetailMapView(latitude: location.filmingLocation.latitude,
-                    longitude: location.filmingLocation.longitude)
-        .frame(height: 300)
-        .cornerRadius(10)
-      
       VStack(alignment: .leading, spacing: 4) {
         HStack {
           Text("Air Date:")
@@ -91,16 +86,82 @@ struct DetailCard: View {
         }
         .padding(.bottom, 24)
         
-        LookAroundPreview(coordinate: CLLocationCoordinate2D(
-          latitude: location.filmingLocation.latitude,
-          longitude: location.filmingLocation.longitude
-        ))
-        .frame(maxWidth: .infinity)
-        .cornerRadius(10)
-        .padding(.bottom, 12)
+        VStack(spacing: 20) {
+          HStack {
+            Text("Satellite View")
+              .font(.headline)
+            Spacer()
+          }
+          
+          DetailMapView(latitude: location.filmingLocation.latitude,
+                        longitude: location.filmingLocation.longitude)
+            .frame(height: 300)
+            .cornerRadius(10)
+            .padding(.bottom, 24)
+          
+          if let imageFilename = location.imageFilename {
+            HStack {
+              Text("Episode View")
+                .font(.headline)
+              Spacer()
+            }
+            DetailLocationImage(imageFilename: imageFilename)
+              .padding(.bottom, 24)
+          }
+          
+          HStack {
+            Text("Current Street View")
+              .font(.headline)
+            Spacer()
+          }
+          
+          LookAroundPreview(coordinate: CLLocationCoordinate2D(
+            latitude: location.filmingLocation.latitude,
+            longitude: location.filmingLocation.longitude
+          ))
+          .frame(maxWidth: .infinity)
+          .cornerRadius(8)
+          .padding(.bottom, 24)
+        }
       }
     }
     .ignoresSafeArea(edges: .top)
+  }
+}
+
+struct DetailLocationImage: View {
+  var imageFilename: String
+
+  var body: some View {
+    if let url = URL(string: imageFilename) {
+      AsyncImage(url: url) { phase in
+        switch phase {
+        case .empty:
+          ZStack {
+            Rectangle()
+              .foregroundStyle(.clear)
+              .frame(width: DeviceMetrics.screenWidthPadding * 0.3, height: DeviceMetrics.screenWidthPadding * 0.3)
+            VStack {
+              Spacer()
+              ProgressView()
+              Spacer()
+            }
+          }
+        case .success(let image):
+          image
+            .resizable()
+            .frame(maxWidth: .infinity)
+            .cornerRadius(8)
+            .aspectRatio(contentMode: .fit)
+        case .failure:
+          FallBackImage()
+        @unknown default:
+          FallBackImage()
+        }
+      }
+    } else {
+      FallBackImage()
+    }
   }
 }
 

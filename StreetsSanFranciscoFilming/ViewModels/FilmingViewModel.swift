@@ -17,6 +17,8 @@ class FilmingViewModel: ObservableObject {
   var selectedEpisode: Episode?
   var selectedLocation: Location?
   
+  var photoURL: URL?
+  
   var locationsToShow: [Location] {
     if let season = selectedSeason {
       if let episode = selectedEpisode {
@@ -309,7 +311,6 @@ class FilmingViewModel: ObservableObject {
   
   private func createLocations(from locationDataArray: [LocationData], in episode: Episode) {
     for locationData in locationDataArray {
-      let imageData = loadImageData(filename: locationData.imageFilename)
       
       let location = Location(
         locationInfo: locationData.locationInfo,
@@ -317,13 +318,18 @@ class FilmingViewModel: ObservableObject {
           latitude: locationData.filmingLocation.latitude,
           longitude: locationData.filmingLocation.longitude
         ),
-        locationImage: imageData,
+        imageFilename: locationData.imageFilename,
         locationTitle: locationData.locationTitle,
         timeCode: locationData.timeCode
       )
       location.episode = episode
       modelContext.insert(location)
     }
+  }
+  
+  func loadImage(fileName: String) {
+//    let urlString = "https://live.staticflickr.com/\(serverId)/\(photoId)_\(secret).jpg"
+    self.photoURL = URL(string: fileName)
   }
   
   private func loadImageData(filename: String) -> Data? {
@@ -335,6 +341,49 @@ class FilmingViewModel: ObservableObject {
     return try? Data(contentsOf: url)
   }
   
+  // MARK: - Load Images from FLICKR
+//  func buildFlickrURL(for searchTerm: String) -> URL? {
+//    var components = URLComponents(string: Constants.URL.baseURL)
+//    components?.queryItems = [
+//      URLQueryItem(name: "method", value: "flickr.photos.search"),
+//      URLQueryItem(name: "api_key", value: Constants.API.flickrApiKey),
+//      URLQueryItem(name: "tags", value: searchTerm),
+//      URLQueryItem(name: "format", value: "json"),
+//      URLQueryItem(name: "nojsoncallback", value: "1")
+//    ]
+//    return components?.url
+//  }
+//  
+//  func fetchPhotos(for searchTerm: String, completion: @escaping ([String]) -> Void) {
+//    guard let url = buildFlickrURL(for: searchTerm) else { return }
+//    
+//    URLSession.shared.dataTask(with: url) { data, response, error in
+//      guard let data = data, error == nil else {
+//        print("Error: \(error?.localizedDescription ?? "Unknown error")")
+//        return
+//      }
+//      
+//      do {
+//        // Parse JSON
+//        if let json = try JSONSerialization.jsonObject(with: data, options: []) as? [String: Any],
+//           let photos = json["photos"] as? [String: Any],
+//           let photoArray = photos["photo"] as? [[String: Any]] {
+//          
+//          // Extract image URLs
+//          let imageUrls = photoArray.compactMap { photo -> String? in
+//            guard let server = photo["server"] as? String,
+//                  let id = photo["id"] as? String,
+//                  let secret = photo["secret"] as? String else { return nil }
+//            return "https://live.staticflickr.com/\(server)/\(id)_\(secret).jpg"
+//          }
+//          completion(imageUrls)
+//        }
+//      } catch {
+//        print("JSON parsing error: \(error)")
+//      }
+//    }.resume()
+//  }
+//  
   // MARK: - Error Handling
   private func handleError(error: Error, message: String) {
     errorMessage = "\(message): \(error.localizedDescription)"

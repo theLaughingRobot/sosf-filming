@@ -85,7 +85,7 @@ struct LocationCard: View {
   
   var body: some View {
     HStack(alignment: .top, spacing: 0) {
-      LocationImage(location: location)
+      LocationImage(imageFilename: location.imageFilename ?? "")
       VStack(alignment: .leading, spacing: 0) {
         Text(location.locationTitle)
           .font(Font.custom(Constants.FontNames.HelveticaNeueBold, size: 18))
@@ -104,7 +104,7 @@ struct LocationCard: View {
       .padding(.horizontal, 8)
       .padding(.vertical, 8)
     }
-    .frame(maxWidth: .infinity, alignment: .leading)
+    .frame(maxWidth: .infinity, minHeight: 112, alignment: .leading)
     .background(Color.white)
     .cornerRadius(8)
     .shadow(color: Color.black.opacity(0.2), radius: 8, x: 0, y: 2)
@@ -113,21 +113,47 @@ struct LocationCard: View {
 }
 
 struct LocationImage: View {
-  var location: Location
-  
-  // TODO: figure out most efficient way to pull images
-  // CloudKit? Server? Embed in app?
+  var imageFilename: String
+
   var body: some View {
-    if let imageData = location.locationImage,
-       let uiImage = UIImage(data: imageData) {
-      Image(uiImage: uiImage)
-        .resizable()
-        .scaledToFit()
+    if let url = URL(string: imageFilename) {
+      AsyncImage(url: url) { phase in
+        switch phase {
+        case .empty:
+          ZStack {
+            Rectangle()
+              .foregroundStyle(.clear)
+              .frame(width: DeviceMetrics.screenWidthPadding * 0.3, height: DeviceMetrics.screenWidthPadding * 0.3)
+            VStack {
+              Spacer()
+              ProgressView()
+              Spacer()
+            }
+          }
+        case .success(let image):
+          image
+            .resizable()
+            .aspectRatio(contentMode: .fill)
+            .frame(maxWidth: UIScreen.main.bounds.width * 0.3 - 24)
+            .clipped()
+        case .failure:
+          FallBackImage()
+        @unknown default:
+          FallBackImage()
+        }
+      }
     } else {
-      Image("sosf-1")
-        .resizable()
-        .frame(width: DeviceMetrics.screenWidthPadding * 0.3)
-        .aspectRatio(16/9, contentMode: .fill)
+      FallBackImage()
     }
+  }
+}
+
+struct FallBackImage: View {
+  var body: some View {
+    Image("sosf-1")
+      .resizable()
+      .aspectRatio(contentMode: .fill)
+      .frame(maxWidth: UIScreen.main.bounds.width * 0.3 - 24)
+      .clipped()
   }
 }

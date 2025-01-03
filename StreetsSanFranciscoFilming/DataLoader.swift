@@ -60,7 +60,7 @@ class DataLoader {
         modelContext.insert(episode)
         
         for locationData in episodeData.locations {
-          let imageData: Data? = loadImageData(filename: locationData.imageFilename)
+          //let imageData: Data? = loadImageData(filename: locationData.imageFilename)
           
           let location = Location(
             locationInfo: locationData.locationInfo,
@@ -68,7 +68,7 @@ class DataLoader {
               latitude: locationData.filmingLocation.latitude,
               longitude: locationData.filmingLocation.longitude
             ),
-            locationImage: imageData,
+            imageFilename: locationData.imageFilename,
             locationTitle: locationData.locationTitle,
             timeCode: locationData.timeCode
           )

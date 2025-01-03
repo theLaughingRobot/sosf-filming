@@ -6,16 +6,16 @@ import CoreLocation
 final class Location {
   var locationInfo: String
   var filmingLocation: Coordinate
-  var locationImage: Data?
+  var imageFilename: String?
   var locationTitle: String
   var timeCode: String
   
   @Relationship(inverse: \Episode.locations) var episode: Episode?
   
-  init(locationInfo: String, filmingLocation: Coordinate, locationImage: Data? = nil, locationTitle: String, timeCode: String) {
+  init(locationInfo: String, filmingLocation: Coordinate, imageFilename: String?, locationTitle: String, timeCode: String) {
     self.locationInfo = locationInfo
     self.filmingLocation = filmingLocation
-    self.locationImage = locationImage
+    self.imageFilename = imageFilename ?? "sosf-1.jpg"
     self.locationTitle = locationTitle
     self.timeCode = timeCode
   }

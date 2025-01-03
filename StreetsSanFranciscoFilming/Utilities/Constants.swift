@@ -15,9 +15,12 @@ struct Constants {
     static let userID = "user_id"
   }
   
+  struct URL {
+    static let baseURL = "https://www.flickr.com/services/rest/"
+  }
+  
   struct API {
-    static let api1 = "api1"
-    static let api2 = "api2"
+    static let flickrApiKey = "b3de6f6e984f39e1bcfa869b64e332ad"
   }
   
   struct AlertMessages {
