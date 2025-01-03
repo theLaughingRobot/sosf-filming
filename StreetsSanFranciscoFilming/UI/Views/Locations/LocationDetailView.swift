@@ -1,3 +1,4 @@
+import Kingfisher
 import MapKit
 import SwiftUI
 
@@ -99,7 +100,7 @@ struct DetailCard: View {
             .cornerRadius(10)
             .padding(.bottom, 24)
           
-          if let imageFilename = location.imageFilename {
+          if let imageFilename = location.imageFilename, !imageFilename.isEmpty {
             HStack {
               Text("Episode View")
                 .font(.headline)
@@ -134,33 +135,31 @@ struct DetailLocationImage: View {
 
   var body: some View {
     if let url = URL(string: imageFilename) {
-      AsyncImage(url: url) { phase in
-        switch phase {
-        case .empty:
+      KFImage(url)
+        .placeholder {
           ZStack {
             Rectangle()
               .foregroundStyle(.clear)
-              .frame(width: DeviceMetrics.screenWidthPadding * 0.3, height: DeviceMetrics.screenWidthPadding * 0.3)
+              .frame(maxWidth: .infinity)
             VStack {
               Spacer()
               ProgressView()
               Spacer()
             }
           }
-        case .success(let image):
-          image
-            .resizable()
-            .frame(maxWidth: .infinity)
-            .cornerRadius(8)
-            .aspectRatio(contentMode: .fit)
-        case .failure:
-          FallBackImage()
-        @unknown default:
-          FallBackImage()
         }
-      }
+        .onFailure { error in
+          print("Detail image loading failed: \(error.localizedDescription)")
+        }
+        .cacheOriginalImage()
+        .resizable()
+        .aspectRatio(contentMode: .fill)
+        .frame(maxWidth: .infinity)
+        .frame(height: 200)
+        .cornerRadius(8)
+        .clipped()
     } else {
-      FallBackImage()
+      //FallBackImage(isDetailView: true)
     }
   }
 }

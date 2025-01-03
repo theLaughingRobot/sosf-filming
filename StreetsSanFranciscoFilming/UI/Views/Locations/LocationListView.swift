@@ -1,3 +1,4 @@
+import Kingfisher
 import SwiftUI
 
 struct LocationListView: View {
@@ -114,46 +115,49 @@ struct LocationCard: View {
 
 struct LocationImage: View {
   var imageFilename: String
-
+  
   var body: some View {
     if let url = URL(string: imageFilename) {
-      AsyncImage(url: url) { phase in
-        switch phase {
-        case .empty:
+      KFImage(url)
+        .setProcessor(DownsamplingImageProcessor(size: CGSize(width: 300, height: 300)))
+        .fade(duration: 0.25)
+        .placeholder { _ in
           ZStack {
             Rectangle()
               .foregroundStyle(.clear)
-              .frame(width: DeviceMetrics.screenWidthPadding * 0.3, height: DeviceMetrics.screenWidthPadding * 0.3)
+              .frame(width: DeviceMetrics.screenWidthPadding * 0.3,
+                     height: DeviceMetrics.screenWidthPadding * 0.3)
             VStack {
               Spacer()
               ProgressView()
               Spacer()
             }
           }
-        case .success(let image):
-          image
-            .resizable()
-            .aspectRatio(contentMode: .fill)
-            .frame(maxWidth: UIScreen.main.bounds.width * 0.3 - 24)
-            .clipped()
-        case .failure:
-          FallBackImage()
-        @unknown default:
-          FallBackImage()
         }
-      }
-    } else {
+        .onFailure { error in
+          print("Image loading failed: \(error.localizedDescription)")
+        }
+        .cacheOriginalImage()
+        .resizable()
+        .aspectRatio(contentMode: .fill)
+        .frame(maxWidth: UIScreen.main.bounds.width * 0.3 - 24)
+        .clipped()
+    }
+    else {
       FallBackImage()
     }
   }
 }
 
 struct FallBackImage: View {
+  var isDetailView = false
+  
   var body: some View {
     Image("sosf-1")
       .resizable()
       .aspectRatio(contentMode: .fill)
-      .frame(maxWidth: UIScreen.main.bounds.width * 0.3 - 24)
+      .frame(maxWidth: (UIScreen.main.bounds.width * (isDetailView ? 1.0 : 0.3)) - 24)
+//      .cornerRadius(8.0)
       .clipped()
   }
 }
