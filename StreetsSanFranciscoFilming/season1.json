@@ -19,7 +19,7 @@
             "latitude": 37.8071298,
             "longitude": -122.4482331
           },
-          "imageFilename": ""
+          "imageFilename": "https://live.staticflickr.com/65535/54241669332_d68f2d6de9_c.jpg"
         },
         {
           "locationTitle": "S.F. Police Department",
@@ -182,12 +182,72 @@
       "episodeGuestStars": "Edmond O'Brien, Tim O'Connor, David Opatoshu, Eileen Heckart",
       "locations": [
         {
-          "locationTitle": "Joseph's Jewlers",
-          "locationInfo": "Joseph's Jewlers where Gus gets shot",
+          "locationTitle": "314 Columbus Ave",
+          "locationInfo": "Joseph's Jewlers where Gus gets shot, this is now a Pizza restaurant",
           "timeCode": "02:07",
           "filmingLocation": {
-            "latitude": 37.798197,
-            "longitude": -122.4069720
+            "latitude": 37.79841476,
+            "longitude": -122.40698292
+          },
+          "imageFilename": ""
+        },
+        {
+          "locationTitle": "2535 22nd St",
+          "locationInfo": "San Francisco General Hospital where Gus is taken to",
+          "timeCode": "08:41",
+          "filmingLocation": {
+            "latitude": 37.75686537,
+            "longitude": -122.40561582
+          },
+          "imageFilename": ""
+        },
+        {
+          "locationTitle": "515 Broadway",
+          "locationInfo": "Strip club where Stone talks to Eddie Suslo",
+          "timeCode": "25:23",
+          "filmingLocation": {
+            "latitude": 37.79789720,
+            "longitude": -122.40590552
+          },
+          "imageFilename": ""
+        },
+        {
+          "locationTitle": "55 Osgood Place",
+          "locationInfo": "Harry Jarvis' apartment, in the show they refer to is as 103 Andrews",
+          "timeCode": "27:04",
+          "filmingLocation": {
+            "latitude": 37.79803124,
+            "longitude": -122.40304718
+          },
+          "imageFilename": ""
+        },
+        {
+          "locationTitle": "166 Julian Ave",
+          "locationInfo": "Cal Fisher's Boarding House, in the show they refer to is as Mariposa St",
+          "timeCode": "39:40",
+          "filmingLocation": {
+            "latitude": 37.76559628,
+            "longitude": -122.42105268
+          },
+          "imageFilename": ""
+        },
+        {
+          "locationTitle": "16th St. BART Station",
+          "locationInfo": "Where Mike Stone hops the fence to chase the criminal into unfinished BART Station",
+          "timeCode": "41:30",
+          "filmingLocation": {
+            "latitude": 37.76491465,
+            "longitude": -122.42014165
+          },
+          "imageFilename": ""
+        },
+        {
+          "locationTitle": "507 Mississippi St",
+          "locationInfo": "Where Mike says goodbye to Stella Charnovski.",
+          "timeCode": "45:20",
+          "filmingLocation": {
+            "latitude": 37.75997376,
+            "longitude": -122.39421090
           },
           "imageFilename": ""
         }
@@ -564,7 +624,7 @@
         {
           "locationTitle": "xxxxxx",
           "locationInfo": "xxxxx",
-          "timeCode": "00:05:45",
+          "timeCode": "05:45",
           "filmingLocation": {
             "latitude": 37.784548,
             "longitude": -122.499863
@@ -584,7 +644,7 @@
         {
           "locationTitle": "xxxxx",
           "locationInfo": "xxxxx",
-          "timeCode": "00:05:45",
+          "timeCode": "05:45",
           "filmingLocation": {
             "latitude": 37.784548,
             "longitude": -122.4998630
