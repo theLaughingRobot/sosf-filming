@@ -19,7 +19,7 @@
             "latitude": 37.8071298,
             "longitude": -122.4482331
           },
-          "imageFilename": "https://live.staticflickr.com/65535/54241669332_d68f2d6de9_c.jpg"
+          "imageFilename": "https://live.staticflickr.com/65535/54241669332_0559719e4a_b.jpg"
         },
         {
           "locationTitle": "S.F. Police Department",
@@ -29,7 +29,7 @@
             "latitude": 37.7757813,
             "longitude": -122.4046718
           },
-          "imageFilename": "https://live.staticflickr.com/65535/54242810549_540a3e21f8_c.jpg"
+          "imageFilename": "https://live.staticflickr.com/65535/54242810549_37ace9e1c4_b.jpg"
         },
         {
           "locationTitle": "160 Haight St",
@@ -39,7 +39,7 @@
             "latitude": 37.7728912,
             "longitude": -122.4248916
           },
-          "imageFilename": "https://live.staticflickr.com/65535/54242831651_a3d4bd0966_c.jpg"
+          "imageFilename": "https://live.staticflickr.com/65535/54242831651_46f2ea6595_b.jpg"
         },
         {
           "locationTitle": "2190 Washington St",
@@ -49,7 +49,7 @@
             "latitude": 37.7924894,
             "longitude": -122.4291361
           },
-          "imageFilename": "https://live.staticflickr.com/65535/54243065893_f230d7a907_c.jpg"
+          "imageFilename": "https://live.staticflickr.com/65535/54243065893_6a65fc29b0_b.jpg"
         },
         {
           "locationTitle": "Plantation Inn",
@@ -59,7 +59,7 @@
             "latitude": 37.7994552,
             "longitude": -122.4341410
           },
-          "imageFilename": "https://live.staticflickr.com/65535/54241929352_048378792a_c.jpg"
+          "imageFilename": "https://live.staticflickr.com/65535/54241929352_bac3373e1f_b.jpg"
         },
         {
           "locationTitle": "2601 Lombard St",
@@ -69,17 +69,17 @@
             "latitude": 37.798627,
             "longitude": -122.4445154
           },
-          "imageFilename": "https://live.staticflickr.com/65535/54241929337_6b567c9417_c.jpg"
+          "imageFilename": "https://live.staticflickr.com/65535/54241929337_29af13719f_b.jpg"
         },
         {
           "locationTitle": "Photobooth at Pier 39",
           "locationInfo": "Photobooth where Holly took her photos",
           "timeCode": "39:12",
           "filmingLocation": {
-            "latitude": 37.8091081,
-            "longitude": -122.4159587
+            "latitude": 37.809045781,
+            "longitude": -122.41599394
           },
-          "imageFilename": "https://live.staticflickr.com/65535/54243070169_7bb8b0e53d_c.jpg"
+          "imageFilename": "https://live.staticflickr.com/65535/54243070169_3b4c2ba056_b.jpg"
         },
         {
           "locationTitle": "Photo Lamination Machine",
@@ -89,7 +89,7 @@
             "latitude": 37.8083386,
             "longitude": -122.4159163
           },
-          "imageFilename": "https://live.staticflickr.com/65535/54241929292_d672870478_c.jpg"
+          "imageFilename": "https://live.staticflickr.com/65535/54241929292_658f1c9ede_b.jpg"
         },
         {
           "locationTitle": "Chinatown Gates",
@@ -99,7 +99,7 @@
             "latitude": 37.7906625,
             "longitude": -122.4055852
           },
-          "imageFilename": "https://live.staticflickr.com/65535/54241929277_9f2579553f_c.jpg"
+          "imageFilename": "https://live.staticflickr.com/65535/54241929277_1774bbd712_b.jpg"
         },
         {
           "locationTitle": "38 Spofford St",
@@ -109,17 +109,7 @@
             "latitude": 37.7946345,
             "longitude": -122.4073881
           },
-          "imageFilename": "https://live.staticflickr.com/65535/54243070154_4a543502ba_c.jpg"
-        },
-        {
-          "locationTitle": "David Farr's boat slip",
-          "locationInfo": "Where David Farr's kept his boat. Stone and Keller talk to boat owners Joe & Sally Kaswell on their boat Flash Cut",
-          "timeCode": "48:30",
-          "filmingLocation": {
-            "latitude": 37.807941,
-            "longitude": -122.4414714
-          },
-          "imageFilename": "https://live.staticflickr.com/65535/54243266550_6878357f81_c.jpg"
+          "imageFilename": "https://live.staticflickr.com/65535/54243070154_21c35b33ef_b.jpg"
         },
         {
           "locationTitle": "Grass Roots Club",
@@ -129,17 +119,17 @@
             "latitude": 37.79822804,
             "longitude": -122.4030819
           },
-          "imageFilename": "https://live.staticflickr.com/65535/54243081113_0f6d655cab_c.jpg"
+          "imageFilename": "https://live.staticflickr.com/65535/54243081113_236864606d_b.jpg"
         },
         {
-          "locationTitle": "156 Lombard St",
-          "locationInfo": "Abandoned Ice House where Farr finds Delbert hiding out, this is now called TeleGraph LandingG Condos",
-          "timeCode": "66:40",
+          "locationTitle": "David Farr's boat slip",
+          "locationInfo": "Where David Farr's kept his boat. Stone and Keller talk to boat owners Joe & Sally Kaswell on their boat Flash Cut",
+          "timeCode": "57:06",
           "filmingLocation": {
-            "latitude": 37.80405597,
-            "longitude": -122.4037415
+            "latitude": 37.807941,
+            "longitude": -122.4414714
           },
-          "imageFilename": "https://live.staticflickr.com/65535/54242847601_6051c35fa7_c.jpg"
+          "imageFilename": "https://live.staticflickr.com/65535/54246416702_4d6a1b1e90_b.jpg"
         },
         {
           "locationTitle": "411 Marina Blvd",
@@ -149,7 +139,7 @@
             "latitude": 37.8061059,
             "longitude": -122.4400457
           },
-          "imageFilename": "https://live.staticflickr.com/65535/54243070144_5c83fdd121_c.jpg"
+          "imageFilename": "https://live.staticflickr.com/65535/54242847601_fde26e8067_b.jpg"
         },
         {
           "locationTitle": "Gregory Praxas'  house",
@@ -159,7 +149,17 @@
             "latitude": 37.78972814,
             "longitude": -122.4856114
           },
-          "imageFilename": "https://live.staticflickr.com/65535/54241929262_3c6efcf39b_c.jpg"
+          "imageFilename": "https://live.staticflickr.com/65535/54243070144_e4f44ee66d_b.jpg"
+        },
+        {
+          "locationTitle": "156 Lombard St",
+          "locationInfo": "Abandoned Ice House where Delbert was hiding out, this is now called TeleGraph LandingG Condos",
+          "timeCode": "96:26",
+          "filmingLocation": {
+            "latitude": 37.80405597,
+            "longitude": -122.4037415
+          },
+          "imageFilename": "https://live.staticflickr.com/65535/54241929262_1e2ae2b90f_b.jpg"
         },
         {
           "locationTitle": "St. Joseph's Hospital",
@@ -169,7 +169,7 @@
             "latitude": 37.76731231,
             "longitude": -122.4396617
           },
-          "imageFilename": "https://live.staticflickr.com/65535/54242831601_3eb360bc0e_c.jpg"
+          "imageFilename": "https://live.staticflickr.com/65535/54242831601_325ce63684_b.jpg"
         }
       ],
       "seasonEpisodeNumber": 1000
@@ -189,7 +189,7 @@
             "latitude": 37.79841476,
             "longitude": -122.40698292
           },
-          "imageFilename": ""
+          "imageFilename": "https://live.staticflickr.com/65535/54247617013_eb5212726b_b.jpg"
         },
         {
           "locationTitle": "2535 22nd St",
@@ -199,7 +199,7 @@
             "latitude": 37.75686537,
             "longitude": -122.40561582
           },
-          "imageFilename": ""
+          "imageFilename": "https://live.staticflickr.com/65535/54247631714_0554f5383c_b.jpg"
         },
         {
           "locationTitle": "515 Broadway",
@@ -209,7 +209,7 @@
             "latitude": 37.79789720,
             "longitude": -122.40590552
           },
-          "imageFilename": ""
+          "imageFilename": "https://live.staticflickr.com/65535/54246485992_60f0703e8c_b.jpg"
         },
         {
           "locationTitle": "55 Osgood Place",
@@ -219,7 +219,7 @@
             "latitude": 37.79803124,
             "longitude": -122.40304718
           },
-          "imageFilename": ""
+          "imageFilename": "https://live.staticflickr.com/65535/54246485977_ec4bb55273_b.jpg"
         },
         {
           "locationTitle": "166 Julian Ave",
@@ -229,7 +229,7 @@
             "latitude": 37.76559628,
             "longitude": -122.42105268
           },
-          "imageFilename": ""
+          "imageFilename": "https://live.staticflickr.com/65535/54247617008_4c100bbf7a_b.jpg"
         },
         {
           "locationTitle": "16th St. BART Station",
@@ -239,7 +239,7 @@
             "latitude": 37.76491465,
             "longitude": -122.42014165
           },
-          "imageFilename": ""
+          "imageFilename": "https://live.staticflickr.com/65535/54247384141_bfd51e6907_b.jpg"
         },
         {
           "locationTitle": "507 Mississippi St",
@@ -249,7 +249,7 @@
             "latitude": 37.75997376,
             "longitude": -122.39421090
           },
-          "imageFilename": ""
+          "imageFilename": "https://live.staticflickr.com/65535/54246485982_02c6c40531_b.jpg"
         }
       ],
       "seasonEpisodeNumber": 1001
@@ -266,10 +266,90 @@
           "locationInfo": "The Orphanage Lounge where Beverly Landau gets stabbed outside",
           "timeCode": "03:35",
           "filmingLocation": {
-            "latitude": 37.796693,
-            "longitude": -122.403649
+            "latitude": 37.7966771421735,
+            "longitude": -122.40364781112122
           },
-          "imageFilename": "xxxxx.jpg"
+          "imageFilename": "https://live.staticflickr.com/65535/54247913315_d1f732db44_b.jpg"
+        },
+        {
+          "locationTitle": "Jackson & Montgomery",
+          "locationInfo": "Where the killer gets hit by a van",
+          "timeCode": "04:20",
+          "filmingLocation": {
+            "latitude": 37.79642227288689,
+            "longitude": -122.40356485017764
+          },
+          "imageFilename": "https://live.staticflickr.com/65535/54247485181_acdbce9625_b.jpg"
+        },
+        {
+          "locationTitle": "226 The Embarcadero",
+          "locationInfo": "Hotel Kennedy at 226 The Embarcadero where Beverly goes to stay with Inspector Keller in Room 408",
+          "timeCode": "14:12",
+          "filmingLocation": {
+            "latitude": 37.791566,
+            "longitude": -122.3909249
+          },
+          "imageFilename": "https://live.staticflickr.com/65535/54247485151_744abf8219_b.jpg"
+        },
+        {
+          "locationTitle": "Embarcadeo Center Parking",
+          "locationInfo": "Mike Stone drives into the underground parking garage to interview the suspect",
+          "timeCode": "25:41",
+          "filmingLocation": {
+            "latitude": 37.7944161762668,
+            "longitude": -122.40019208713908
+          },
+          "imageFilename": "https://live.staticflickr.com/65535/54247719693_44f173e9f6_b.jpg"
+        },
+        {
+          "locationTitle": "1 Embarcadeo Center",
+          "locationInfo": "Mike Stone interviews suspect Mr Graham in his office on the 30th floor",
+          "timeCode": "26:06",
+          "filmingLocation": {
+            "latitude": 37.79450574543508,
+            "longitude": -122.3998913173605
+          },
+          "imageFilename": "https://live.staticflickr.com/65535/54247913270_ba7a31a4ef_b.jpg"
+        },
+        {
+          "locationTitle": "1 Fisherman's Wharf",
+          "locationInfo": "Where Keller and Beverly go to get food",
+          "timeCode": "39:43",
+          "filmingLocation": {
+            "latitude": 37.808327939927246,
+            "longitude": -122.41590025205839
+          },
+          "imageFilename": "https://live.staticflickr.com/65535/54247913280_a838fdccda_b.jpg"
+        },
+        {
+          "locationTitle": "Fisherman's Wharf Pier",
+          "locationInfo": "Where Keller and Beverly walk before getting dinner",
+          "timeCode": "41:23",
+          "filmingLocation": {
+            "latitude": 37.808511076019805,
+            "longitude": -122.41645833967999
+          },
+          "imageFilename": "https://live.staticflickr.com/65535/54247913285_ded091814e_b.jpg"
+        },
+        {
+          "locationTitle": "Giradehli Sq",
+          "locationInfo": "Giradehli Sq where Graham tries to attack Beveryly but ends up on the roof getting arrested",
+          "timeCode": "44:18",
+          "filmingLocation": {
+            "latitude": 37.80589623464928,
+            "longitude": -122.4225037450052
+          },
+          "imageFilename": "https://live.staticflickr.com/65535/54247485146_8d5d48ea82_b.jpg"
+        },
+        {
+          "locationTitle": "2040 Union St",
+          "locationInfo": "Tops N Things where Beverly got a job as a waitress",
+          "timeCode": "49:44",
+          "filmingLocation": {
+            "latitude": 37.797520961955804,
+            "longitude": -122.43298762177224
+          },
+          "imageFilename": "https://live.staticflickr.com/65535/54247913275_d1540b6df4_b.jpg"
         }
       ],
       "seasonEpisodeNumber": 1002
