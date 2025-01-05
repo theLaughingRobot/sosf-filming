@@ -362,15 +362,106 @@
       "episodeGuestStars": "William Windom, Dick van Patten",
       "locations": [
         {
-          "locationTitle": "xxxx",
-          "locationInfo": "Where Russell Rankin picks up Lita on the corner.",
+          "locationTitle": "Filmore & Cervantes",
+          "locationInfo": "Where Russell Rankin picks up Lita on the corner",
           "timeCode": "01:11",
           "filmingLocation": {
-            "latitude": 37.802977,
-            "longitude": -122.4369080
+            "latitude": 37.8029885384984,
+            "longitude": -122.43690553649954
           },
-          "imageFilename": "xxxx.jpg"
-        }
+          "imageFilename": "https://live.staticflickr.com/65535/54249147664_da013efd86_b.jpg"
+        },
+        {
+          "locationTitle": "S40 Dock",
+          "locationInfo": "Houseboat where Lita lives",
+          "timeCode": "05:11",
+          "filmingLocation": {
+            "latitude": 37.87190630402754,
+            "longitude": -122.50054025912084
+          },
+          "imageFilename": "https://live.staticflickr.com/65535/54247997337_d635c14ddb_b.jpg"
+        },
+        {
+          "locationTitle": "1210 Stockton",
+          "locationInfo": "Where Steve is flirting with the asian woman at the grocery store, this is now Dong Hing Supermarket",
+          "timeCode": "10:25",
+          "filmingLocation": {
+            "latitude": 37.79694835524654,
+            "longitude": -122.40840201210253
+          },
+          "imageFilename": "https://live.staticflickr.com/65535/54248892731_476e96dd56_b.jpg"
+        },
+        {
+          "locationTitle": "Golden Gate Bridge Welcome Center",
+          "locationInfo": "Where Russell Rankin decides to go back to check on the girl",
+          "timeCode": "12:25",
+          "filmingLocation": {
+            "latitude": 37.807343513261756,
+            "longitude": -122.47406556011397
+          },
+          "imageFilename": "https://live.staticflickr.com/65535/54249147584_130482db86_b.jpg"
+        },
+        {
+          "locationTitle": "Market at Eighth",
+          "locationInfo": "Del Webb's Towne House Hotel where Russel Rankin's convention is",
+          "timeCode": "15:47",
+          "filmingLocation": {
+            "latitude": 37.77862346773853,
+            "longitude": -122.4140406577775
+          },
+          "imageFilename": "https://live.staticflickr.com/65535/54248892701_d7563a3b24_b.jpg"
+        },
+        {
+          "locationTitle": "471 Jefferson",
+          "locationInfo": "Where Steve interviews Robert the leather artists at the crafts fair about Lita Breuer and Brett Wilson",
+          "timeCode": "32:43",
+          "filmingLocation": {
+            "latitude": 37.80750614726686,
+            "longitude": -122.41994499330603
+          },
+          "imageFilename": "https://live.staticflickr.com/65535/54249135118_23bf26ea78_b.jpg"
+        },
+        {
+          "locationTitle": "650 Beach",
+          "locationInfo": "Where Steve interviews the candle woman about Brett Wilson and Lita Breuer",
+          "timeCode": "33:43",
+          "filmingLocation": {
+            "latitude": 37.806861727785275,
+            "longitude": -122.41983602346538
+          },
+          "imageFilename": "https://live.staticflickr.com/65535/54249147569_135bfd6e7a_b.jpg"
+        },
+        {
+          "locationTitle": "Beach & Hyde",
+          "locationInfo": "Where Steve gets his photo taken and flirts with the photographer",
+          "timeCode": "34:50",
+          "filmingLocation": {
+            "latitude": 37.80677937083731,
+            "longitude": -122.42070830784525
+          },
+          "imageFilename": "https://live.staticflickr.com/65535/54248892711_37959a1192_b.jpg"
+        },
+        {
+          "locationTitle": "891 Beach",
+          "locationInfo": "Where Mike and Steve get in the car to check the car at the hotel or airport",
+          "timeCode": "35:08",
+          "filmingLocation": {
+            "latitude": 37.80626211027377,
+            "longitude": -122.42376769132092
+          },
+          "imageFilename": "https://live.staticflickr.com/65535/54249147559_43564debbc_b.jpg"
+        },
+        {
+          "locationTitle": "Grant & Bush",
+          "locationInfo": "Where Mike and Steve drive and then park so that Mike can tell the asian girl that Steve was flirting with that he has Sunday night off",
+          "timeCode": "49:35",
+          "filmingLocation": {
+            "latitude": 37.79041192778169,
+            "longitude": -122.4055104209211
+          },
+          "imageFilename": "https://live.staticflickr.com/65535/54248892696_e8d9324cf7_b.jpg"
+        },
+        
       ],
       "seasonEpisodeNumber": 1003
     },
