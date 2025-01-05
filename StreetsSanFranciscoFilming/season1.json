@@ -382,14 +382,44 @@
       "episodeGuestStars": "James Stacy, Linda Marsh",
       "locations": [
         {
-          "locationTitle": "1552 Greenwich",
-          "locationInfo": "Joan Geneti's apartment at 1552 Greenwich Apt 4",
-          "timeCode": "07:45",
+          "locationTitle": "Marina Safeway",
+          "locationInfo": "Where Peter & Joan talk with Shawn until Mrs Reardon takes him away.",
+          "timeCode": "13:40",
           "filmingLocation": {
-            "latitude": 37.800397,
-            "longitude": -122.4253169
+            "latitude": 37.804675301254804,
+            "longitude": -122.43351673238935
           },
-          "imageFilename": "XXXX.jpg"
+          "imageFilename": "https://live.staticflickr.com/65535/54248006505_f3be00b541_b.jpg"
+        },
+        {
+          "locationTitle": "1552 Greenwich",
+          "locationInfo": "Where Peter packs up the camper in front of Joan Geneti's apartment to get ready for the trip to Canada.",
+          "timeCode": "22:06",
+          "filmingLocation": {
+            "latitude": 37.8004137809485,
+            "longitude":  -122.42532770903075
+          },
+          "imageFilename": "https://live.staticflickr.com/65535/54248006510_d71cd9c24c_b.jpg"
+        },
+        {
+          "locationTitle": "San Francisco Zoo",
+          "locationInfo": "Where Peter Forrest kidnaps Shawn off the carousel at the SF zoo",
+          "timeCode": "34:18",
+          "filmingLocation": {
+            "latitude": 37.73330489033219,
+            "longitude": -122.50324091865102
+          },
+          "imageFilename": "https://live.staticflickr.com/65535/54247813653_ffd8acdcff_b.jpg"
+        },
+        {
+          "locationTitle": "Battery Davis",
+          "locationInfo": "Battery Davis where Peter Forrest goes with Shawn. Mike follows them in and talks him out",
+          "timeCode": "41:15",
+          "filmingLocation": {
+            "latitude": 37.717861601175954,
+            "longitude": -122.50321059505967
+          },
+          "imageFilename": "https://live.staticflickr.com/65535/54247828204_6ce8e08a56_b.jpg"
         }
       ],
       "seasonEpisodeNumber": 1004
