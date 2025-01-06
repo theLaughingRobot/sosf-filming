@@ -460,8 +460,7 @@
             "longitude": -122.4055104209211
           },
           "imageFilename": "https://live.staticflickr.com/65535/54248892696_e8d9324cf7_b.jpg"
-        },
-        
+        }
       ],
       "seasonEpisodeNumber": 1003
     },
@@ -522,16 +521,96 @@
       "episodeDescription": "Stone and Keller uncover the seedy world of escort services when their suspect is a cultured art collector with a Pygmalion complex who hires escorts determined to create in them his idealized woman.",
       "episodeGuestStars": "Stefanie Powers, Edward Mulhare, Vic Tayback",
       "locations": [
-        {
-          "locationTitle": "XXXXX",
-          "locationInfo": "Where Amery takes Kim at the end of the evening.",
-          "timeCode": "08:20",
-          "filmingLocation": {
-            "latitude": 37.809432,
-            "longitude": -122.4759779
+          {
+              "locationTitle": "1000 North Point",
+              "locationInfo": "Fontana East Condos where Amery killed Toni Craig",
+              "timeCode": "01:16",
+              "filmingLocation": {
+                  "latitude": 37.805405990945616,
+                  "longitude": -122.42460279872782
+              },
+              "imageFilename": "https://live.staticflickr.com/65535/54249829390_7a34598755_b.jpg"
           },
-          "imageFilename": "xxxx.jpg"
-        }
+          {
+              "locationTitle": "Imperial Palace",
+              "locationInfo": "Where Amery Gillian first meets Kim Ahearn for dinner",
+              "timeCode": "03:30",
+              "filmingLocation": {
+                  "latitude": 37.795162909279874,
+                  "longitude": -122.40687668355986
+              },
+              "imageFilename": "https://live.staticflickr.com/65535/54249655719_c9de022b8b_b.jpg"
+          },
+          {
+              "locationTitle": "Marine Drive",
+              "locationInfo": "Where Amery and Kim talking in the car after dinner",
+              "timeCode": "08:20",
+              "filmingLocation": {
+                  "latitude": 37.80947502381022,
+                  "longitude": -122.47597541315844
+              },
+              "imageFilename": "https://live.staticflickr.com/65535/54249399606_b2c92ed2ec_b.jpg"
+          },
+          {
+              "locationTitle": "720 Montgomery",
+              "locationInfo": "Taxi stand where Amery drops Kim at the end of the evening",
+              "timeCode": "10:00",
+              "filmingLocation": {
+                  "latitude": 37.79592401854504,
+                  "longitude": -122.40349084639296
+              },
+              "imageFilename": "https://live.staticflickr.com/65535/54249829360_08af541950_b.jpg"
+          },
+          {
+              "locationTitle": "682 Market",
+              "locationInfo": "California Savings building, where Mike and Steve met with Toni's former employer, Gary Products",
+              "timeCode": "11:20",
+              "filmingLocation": {
+                  "latitude": 37.7855791065029,
+                  "longitude": -122.40639735127594
+              },
+              "imageFilename": "https://live.staticflickr.com/65535/54249655694_075bde30aa_b.jpg"
+          },
+          {
+              "locationTitle": "Conservatory of Flowers",
+              "locationInfo": "Where Kim is painting while Amery shows up and surprises her with an expensive painting",
+              "timeCode": "14:26",
+              "filmingLocation": {
+                  "latitude": 37.77156171489563,
+                  "longitude": -122.4601422752455
+              },
+              "imageFilename": "https://live.staticflickr.com/65535/54249655669_4609a002f4_b.jpg"
+          },
+          {
+              "locationTitle": "Fort Point",
+              "locationInfo": "Where Amery and Kim talk about the San Francisco Bay",
+              "timeCode": "24:00",
+              "filmingLocation": {
+                  "latitude": 37.810940186799996,
+                  "longitude": -122.47688451929797
+              },
+              "imageFilename": "https://live.staticflickr.com/65535/54249399596_65fb1ace4e_b.jpg"
+          },
+          {
+              "locationTitle": "714 Montgomery",
+              "locationInfo": "Doros restaurant where Kim is leaving with a client to get a taxi",
+              "timeCode": "36:30",
+              "filmingLocation": {
+                  "latitude": 37.79587442918788,
+                  "longitude": -122.40331062314051
+              },
+              "imageFilename": "https://live.staticflickr.com/65535/54249641663_364f005fda_b.jpg"
+          },
+          {
+              "locationTitle": "Golden Gate Park",
+              "locationInfo": "Tennis courts wher Amery's wife speaks with Mike and Steve",
+              "timeCode": "37:50",
+              "filmingLocation": {
+                  "latitude": 37.76942441193023,
+                  "longitude": -122.45879429015424
+              },
+              "imageFilename": "https://live.staticflickr.com/65535/54248502612_600e55b5c1_b.jpg"
+          }
       ],
       "seasonEpisodeNumber": 1005
     },
@@ -540,18 +619,78 @@
       "episodeTitle": "Hall of Mirrors",
       "episodeAirDate": "November 4, 1972",
       "episodeDescription": "Stone is sidelined with a broken ankle, so Keller teams up with hot-headed Inspector Jim Martin to track down a young Mexican suspected of murder. But Martin's prejudice against Mexicans threatens the investigation's success.",
-      "episodeGuestStars": "David Soul , A Martinez",
+      "episodeGuestStars": "David Soul, A Martinez",
       "locations": [
-        {
-          "locationTitle": "xxxxx",
-          "locationInfo": "Where Mike and Inspector Martin are coming back from the produce market.",
-          "timeCode": "07:11",
-          "filmingLocation": {
-            "latitude": 37.753819,
-            "longitude": -122.4186099
+          {
+              "locationTitle": "1965 Jerrold Ave",
+              "locationInfo": "Opening scene where police go to investigate the murder at Zale produce",
+              "timeCode": "01:22",
+              "filmingLocation": {
+                  "latitude": 37.74253026046342,
+                  "longitude": -122.39626628486698
+              },
+              "imageFilename": "https://live.staticflickr.com/65535/54249750133_107c416f8c_b.jpg"
           },
-          "imageFilename": "xxxx.jpg"
-        }
+          {
+              "locationTitle": "1922 Jerrold Ave",
+              "locationInfo": "Where Mike and Inspector Martin speak with the witness",
+              "timeCode": "01:22",
+              "filmingLocation": {
+                  "latitude": 37.74253026046342,
+                  "longitude": -122.39626628486698
+              },
+              "imageFilename": "https://live.staticflickr.com/65535/54249936450_3f86e315e1_b.jpg"
+          },
+          {
+              "locationTitle": "23rd & Mission",
+              "locationInfo": "Where Mike and Inspector Martin are coming back from the murder scene",
+              "timeCode": "07:11",
+              "filmingLocation": {
+                  "latitude": 37.75382692586027,
+                  "longitude": -122.41861037826604
+              },
+              "imageFilename": "https://live.staticflickr.com/65535/54249750123_21662ed84f_b.jpg"
+          },
+          {
+              "locationTitle": "306 24th St",
+              "locationInfo": "Where Mike parks when they are going to talk to Rafael Diaz, right in front of what used to be Mi Casa Mexican Food.",
+              "timeCode": "08:01",
+              "filmingLocation": {
+                  "latitude": 37.75238374856885,
+                  "longitude": -122.41351777605782
+              },
+              "imageFilename": "https://live.staticflickr.com/65535/54249762819_83ab2c6c89_b.jpg"
+          },
+          {
+              "locationTitle": "768 De Haro St",
+              "locationInfo": "View from Mike's house before Steve goes to visit him",
+              "timeCode": "20:17",
+              "filmingLocation": {
+                  "latitude": 37.759994969091274,
+                  "longitude": -122.4012019294103
+              },
+              "imageFilename": "https://live.staticflickr.com/65535/54249750118_e9119d0ef1_b.jpg"
+          },
+          {
+              "locationTitle": "1943 Mission",
+              "locationInfo": "Mission Billiards where Steve and Inspector Martin question the owner",
+              "timeCode": "23:03",
+              "filmingLocation": {
+                  "latitude": 37.76592566615067,
+                  "longitude": -122.41967478835564
+              },
+              "imageFilename": "https://live.staticflickr.com/65535/54249762824_658c91db98_b.jpg"
+          },
+          {
+              "locationTitle": "1248 Alabama St",
+              "locationInfo": "Where Inspector Martin is coaching basketball",
+              "timeCode": "48:13",
+              "filmingLocation": {
+                  "latitude": 37.75189261107514,
+                  "longitude": -122.41104036132013
+              },
+              "imageFilename": "https://live.staticflickr.com/65535/54248610492_498de2bcf6_b.jpg"
+          }
       ],
       "seasonEpisodeNumber": 1006
     },
