@@ -702,14 +702,79 @@
       "episodeGuestStars": "Peter Strauss, Bernie Casey, Elaine Giftos",
       "locations": [
         {
-          "locationTitle": "xxxx",
+          "locationTitle": "Francisco & Mason",
           "locationInfo": "Where the sniper, Daryl LeBeau, waits to kill Herb Shako",
           "timeCode": "01:22",
           "filmingLocation": {
-            "latitude": 37.804709,
-            "longitude": -122.4135650
+            "latitude": 37.80471160501988,
+            "longitude": -122.41356567400733
           },
-          "imageFilename": "xxxx.jpg"
+          "imageFilename": "https://live.staticflickr.com/65535/54250896555_fe1e5093d4_b.jpg"
+        },
+        {
+          "locationTitle": "501 Francisco",
+          "locationInfo": "Apartment that the sniper aims at to kill Herb Shako",
+          "timeCode": "02:24",
+          "filmingLocation": {
+            "latitude": 37.804585666360055,
+            "longitude": -122.4137180466188
+          },
+          "imageFilename": "https://live.staticflickr.com/65535/54250721109_ea4cf8b227_b.jpg"
+        },
+        
+        {
+          "locationTitle": "Manjo's Pier Head.",
+          "locationInfo": "Where Shako got pushed in front of the truck and Bobby Jebson gets blamed for it",
+          "timeCode": "13:47",
+          "filmingLocation": {
+            "latitude": 37.78212948625851,
+            "longitude": -122.38851033300203
+          },
+          "imageFilename": "https://live.staticflickr.com/65535/54250466731_2613fbf26f_b.jpg"
+        },
+        
+        {
+          "locationTitle": "3rd Street Bridge",
+          "locationInfo": "Where Mike and Steve drive on the way to the scene of the crime",
+          "timeCode": "15:03",
+          "filmingLocation": {
+            "latitude": 37.77707543994149,
+            "longitude": -122.39053634125153
+          },
+          "imageFilename": "https://live.staticflickr.com/65535/54250707458_cd656c489c_b.jpg"
+        },
+        
+        {
+          "locationTitle": "Pier 35",
+          "locationInfo": "Pier 35 where LeBeau picks up his ticket for the 6pm ship to Hong Kong called the S. S. Marriposa",
+          "timeCode": "26:00",
+          "filmingLocation": {
+            "latitude": 37.807206479000456,
+            "longitude": -122.40634064053556
+          },
+          "imageFilename": "https://live.staticflickr.com/65535/54250466726_46b16a5e70_b.jpg"
+        },
+        
+        {
+          "locationTitle": "2207 Taylor",
+          "locationInfo": "Where LeBeau leaves his apartment at 2207 Taylor St in the C&W Cab to go to the clothing store and then to his ship",
+          "timeCode": "40:05",
+          "filmingLocation": {
+            "latitude": 37.80286857623002,
+            "longitude": -122.41494426464803
+          },
+          "imageFilename": "https://live.staticflickr.com/65535/54250896560_d0fddd24ea_b.jpg"
+        },
+        
+        {
+          "locationTitle": "2205 Taylor",
+          "locationInfo": " Where Mike and Steve speak to LeBeau's landlord to find out where he went",
+          "timeCode": "41:10",
+          "filmingLocation": {
+            "latitude": 37.8028665021554,
+            "longitude": -122.41485010741798
+          },
+          "imageFilename": "https://live.staticflickr.com/65535/54250707423_ed05a7b3f8_b.jpg"
         }
       ],
       "seasonEpisodeNumber": 1007
